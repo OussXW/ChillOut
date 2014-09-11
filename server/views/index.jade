@@ -1,0 +1,42 @@
+extends ../includes/layout
+
+
+block main-content
+  .navbar.navbar-inverse.navbar-fixed-top
+    .container
+      .navbar-header
+        a.navbar-brand(href="/")
+            img(src="/images/logo.png")
+            h6 -Stop whining and chillax
+      .navbar-collapse.collapse
+        ul.nav.navbar-nav
+          li
+            a(href="/") Home
+          li
+            a(href="/about") About
+          li
+            a(href="/courses") Articles
+          li
+            a(href="/spotify") Spotify
+          li
+                a(href="/contacts") Contacts
+
+        div(ng-include="'/partials/account/navbar-login'")
+  br
+  br
+  br
+  section.content
+    div(ng-view)
+
+  footer
+        p
+            | © 2014 Creative Web Solutions
+            br
+
+        h1    Follow Us:
+             a(href='#')
+                    img(src='images/icon-1.jpg', alt='')
+             a(href='#')
+                    img(src='images/icon-2.jpg', alt='')
+             a(href='#')
+                    img(src='images/icon-3.jpg', alt='')

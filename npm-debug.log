@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json MultiVision@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'e:\\WebWorkspace\\MultiVision',
+6 verbose install   [ 'jade',
+6 verbose install     'express',
+6 verbose install     'stylus',
+6 verbose install     'mongoose',
+6 verbose install     'passport-local',
+6 verbose install     'passport',
+6 verbose install     'karma-mocha',
+6 verbose install     'mocha',
+6 verbose install     'karma-chai-plugins',
+6 verbose install     'karma-firefox-launcher',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-script-launcher',
+6 verbose install     'karma-html2js-preprocessor',
+6 verbose install     'karma-jasmine',
+6 verbose install     'requirejs',
+6 verbose install     'karma-requirejs',
+6 verbose install     'karma-coffee-preprocessor',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'karma' ] ]
+7 info preinstall MultiVision@0.0.0
+8 warn package.json passport-local@0.1.6 No README data
+9 warn package.json karma-mocha@0.1.6 No README data
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping jade@~0.35.0 e:\WebWorkspace\MultiVision
+12 verbose already installed skipping express@~3.4.4 e:\WebWorkspace\MultiVision
+13 verbose already installed skipping stylus@~0.40.2 e:\WebWorkspace\MultiVision
+14 verbose already installed skipping mongoose@~3.8.0 e:\WebWorkspace\MultiVision
+15 verbose already installed skipping passport-local@~0.1.6 e:\WebWorkspace\MultiVision
+16 verbose already installed skipping passport@~0.1.17 e:\WebWorkspace\MultiVision
+17 verbose already installed skipping karma-mocha@~0.1.0 e:\WebWorkspace\MultiVision
+18 verbose already installed skipping mocha@~1.14.0 e:\WebWorkspace\MultiVision
+19 verbose already installed skipping karma-chai-plugins@~0.1.3 e:\WebWorkspace\MultiVision
+20 verbose already installed skipping karma-firefox-launcher@~0.1.0 e:\WebWorkspace\MultiVision
+21 verbose already installed skipping karma-chrome-launcher@~0.1.0 e:\WebWorkspace\MultiVision
+22 verbose already installed skipping karma-script-launcher@~0.1.0 e:\WebWorkspace\MultiVision
+23 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 e:\WebWorkspace\MultiVision
+24 verbose already installed skipping karma-jasmine@~0.1.3 e:\WebWorkspace\MultiVision
+25 verbose already installed skipping requirejs@~2.1.9 e:\WebWorkspace\MultiVision
+26 verbose already installed skipping karma-requirejs@~0.2.0 e:\WebWorkspace\MultiVision
+27 verbose already installed skipping karma-coffee-preprocessor@~0.1.0 e:\WebWorkspace\MultiVision
+28 verbose already installed skipping karma-phantomjs-launcher@~0.1.0 e:\WebWorkspace\MultiVision
+29 verbose already installed skipping karma@~0.10.5 e:\WebWorkspace\MultiVision
+30 silly resolved []
+31 info build e:\WebWorkspace\MultiVision
+32 verbose linkStuff [ false, false, false, 'e:\\WebWorkspace' ]
+33 info linkStuff MultiVision@0.0.0
+34 verbose linkBins MultiVision@0.0.0
+35 verbose linkMans MultiVision@0.0.0
+36 verbose rebuildBundles MultiVision@0.0.0
+37 verbose rebuildBundles [ '.bin',
+37 verbose rebuildBundles   'express',
+37 verbose rebuildBundles   'jade',
+37 verbose rebuildBundles   'karma',
+37 verbose rebuildBundles   'karma-chai-plugins',
+37 verbose rebuildBundles   'karma-chrome-launcher',
+37 verbose rebuildBundles   'karma-coffee-preprocessor',
+37 verbose rebuildBundles   'karma-firefox-launcher',
+37 verbose rebuildBundles   'karma-html2js-preprocessor',
+37 verbose rebuildBundles   'karma-jasmine',
+37 verbose rebuildBundles   'karma-mocha',
+37 verbose rebuildBundles   'karma-phantomjs-launcher',
+37 verbose rebuildBundles   'karma-requirejs',
+37 verbose rebuildBundles   'karma-script-launcher',
+37 verbose rebuildBundles   'mocha',
+37 verbose rebuildBundles   'mongoose',
+37 verbose rebuildBundles   'passport',
+37 verbose rebuildBundles   'passport-local',
+37 verbose rebuildBundles   'requirejs',
+37 verbose rebuildBundles   'stylus' ]
+38 info install MultiVision@0.0.0
+39 info postinstall MultiVision@0.0.0
+40 info prepublish MultiVision@0.0.0
+41 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+41 error peerinvalid Peer karma-mocha@0.1.6 wants karma@>=0.12.8
+41 error peerinvalid Peer karma-chai-plugins@0.1.3 wants karma@>=0.9
+41 error peerinvalid Peer karma-firefox-launcher@0.1.3 wants karma@>=0.9
+41 error peerinvalid Peer karma-chrome-launcher@0.1.4 wants karma@>=0.9.3
+41 error peerinvalid Peer karma-script-launcher@0.1.0 wants karma@>=0.9
+41 error peerinvalid Peer karma-html2js-preprocessor@0.1.0 wants karma@>=0.9
+41 error peerinvalid Peer karma-jasmine@0.1.5 wants karma@>=0.9
+41 error peerinvalid Peer karma-requirejs@0.2.2 wants karma@>=0.9
+41 error peerinvalid Peer karma-coffee-preprocessor@0.1.3 wants karma@>=0.9
+41 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+42 error System Windows_NT 6.2.9200
+43 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+44 error cwd e:\WebWorkspace\MultiVision
+45 error node -v v0.10.29
+46 error npm -v 1.4.14
+47 error code EPEERINVALID
+48 verbose exit [ 1, true ]

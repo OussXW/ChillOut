@@ -1,0 +1,134 @@
+﻿.container
+  .jumbotron
+
+
+    h1 ChillOut
+    p People sometimes need to laugh, relax, and not take themselves so seriously.
+
+    //Slider
+  ul.slides
+    input#img-1(type='radio', name='radio-btn', checked='')
+    li.slide-container
+        .slide
+            img(src="/images/slider-1.jpg")
+            .banner
+                .text-1
+                    | We've Got
+                strong Spotify!
+                .text-2
+                    | Ut wisi enim ahd minim veniam quis nostrud exerci takltion ulamc orper suscipit lobortis
+        .nav
+            label.prev(for='img-6') ‹
+            label.next(for='img-2') ›
+    input#img-2(type='radio', name='radio-btn')
+    li.slide-container
+        .slide
+            img(src="/images/overview1.png")
+
+        .nav
+            label.prev(for='img-1') ‹
+            label.next(for='img-3') ›
+    input#img-3(type='radio', name='radio-btn')
+    li.slide-container
+        .slide
+            img(src="/images/slider-2.jpg")
+            .banner
+                .text-1
+                    | Stay Tunned
+                strong an Idea!
+                .text-2
+                    | Ut wisi enim ahd minim veniam quis nostrud exerci takltion ulamc orper suscipit lobortis
+        .nav
+            label.prev(for='img-2') ‹
+            label.next(for='img-4') ›
+    input#img-4(type='radio', name='radio-btn')
+    li.slide-container
+        .slide
+            img(src="/images/spotify-generic.jpg")
+
+
+        .nav
+            label.prev(for='img-3') ‹
+            label.next(for='img-5') ›
+    input#img-5(type='radio', name='radio-btn')
+    li.slide-container
+        .slide
+            img(src="/images/slider-3.jpg")
+            .banner
+                .text-1
+                    | Stay Tunned
+                strong to your Favorite Feeds
+                .text-2
+                    | Ut wisi enim ahd minim veniam quis nostrud exerci takltion ulamc orper suscipit lobortis
+        .nav
+            label.prev(for='img-4') ‹
+            label.next(for='img-6') ›
+    input#img-6(type='radio', name='radio-btn')
+    li.slide-container
+        .slide
+            img(src="/images/feedly-cover.png")
+        .nav
+            label.prev(for='img-5') ‹
+            label.next(for='img-1') ›
+    li.nav-dots
+        label#img-dot-1.nav-dot(for='img-1')
+        label#img-dot-2.nav-dot(for='img-2')
+        label#img-dot-3.nav-dot(for='img-3')
+        label#img-dot-4.nav-dot(for='img-4')
+        label#img-dot-5.nav-dot(for='img-5')
+        label#img-dot-6.nav-dot(for='img-6')
+    //Stuff
+ .container_12
+  br
+  .grid_12.box-2
+        div
+          p.text-3
+            | Welcome to Our
+            span Chill_Out
+            | Website!
+          p.text-4 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+  .grid_8
+        h2.top-1 Our Ideas
+        .box-3
+          div
+            img.img-border(src='images/page1-img3.jpg', alt='')
+            a.link-2(href='#') Nam liber tempor
+            p Uwisi eniminim veniam quis nostrud exerci tation ullamcorperex eacom.
+          div
+            img.img-border(src='images/page1-img4.jpg', alt='')
+            a.link-2(href='#') Cum soluta nobis
+            p Duis autem vel eum iriure dolor henrerit vulputate velit esse molestie.
+          .last
+            img.img-border(src='images/page1-img5.jpg', alt='')
+            a.link-2(href='#') Eleifend optiongue
+            p Feugiat nulla facilisis atvero eros et accumsan et iusto odio dignissim.
+        a.button.top-4(href='#') Read More
+  .grid_4
+        h2.top-1 Latest Events
+        .box-4.top-2
+          .date
+            strong 29
+            span May, 2012
+          p
+            a.link(href='#') Lorem ipsum dolor sit amet consetetur
+            br
+            | Sadipscing elitriam nonumy eirmod nonumy eirmod tempor invidunt labore.
+        .box-4.top-3
+          .date
+            strong 21
+            span May, 2012
+          p
+            a.link(href='#') Dolore magna aliquyam erat dolor
+            br
+            | At vero eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren.
+        a.button.top-4(href='#') Read More
+  .clear
+
+      //Rss Feed
+   br
+  .row
+        .col-md-6
+            div(ng-include="'/partials/main/featured-courses'")
+        .col-md-6
+            div(ng-include="'/partials/main/new-courses'")
+

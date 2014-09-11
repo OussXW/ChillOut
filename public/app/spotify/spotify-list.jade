@@ -1,0 +1,98 @@
+link(rel="stylesheet", href="/css/ratings.css")
+link(rel='stylesheet', type='text/css', media='screen', href='css/reset.css')
+link(rel='stylesheet', type='text/css', media='screen', href='css/grid_12.css')
+link(rel='stylesheet', type='text/css', media='screen', href='css/style.css')
+link(href='http://fonts.googleapis.com/css?family=Lato:300italic', rel='stylesheet', type='text/css')
+script(type="text/javascript", src="/app/spotify/rating.js")
+.container.top-padding-med
+  .pull-right
+    form.form-inline
+        .form-group
+            input.form-control(ng-model="searchText", placeholder="Filter")
+        .form-group.margin-left-med
+            select.form-control(ng-model="sortOrder", ng-options="item.value as item.text for item in sortOptions")
+  table.table.table-hover.table-striped.table-condensed
+        thead
+            tr
+                th Song
+                th Gender
+                th Added
+                th User
+                th Rating
+                th Comment
+
+
+        tbody
+            tr
+                td <iframe src="https://embed.spotify.com/?uri=spotify:track:4bz7uB4edifWKJXSDxwHcs" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td Rock
+                td 12/12/2000  13:20
+                td user1
+                td
+                    span.star-rating(name="1")
+                        input(type='radio', name='rating', value='1')
+                        i
+                        input(type='radio', name='rating', value='2')
+                        i
+                        input(type='radio', name='rating', value='3')
+                        i
+                        input(type='radio', name='rating', value='4')
+                        i
+                        input(type='radio', name='rating', value='5')
+                        i
+                td
+            tr
+                td <iframe src="https://embed.spotify.com/?uri=spotify:user:brewer:playlist:2UxtcJicZYkdBuqFAXzYI2" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td Rock
+                td 12/12/2000  13:20
+                td user1
+                td
+                    span.star-rating(name="2")
+                        input(type='radio', name='rating', value='1')
+                        i
+                        input(type='radio', name='rating', value='2')
+                        i
+                        input(type='radio', name='rating', value='3')
+                        i
+                        input(type='radio', name='rating', value='4')
+                        i
+                        input(type='radio', name='rating', value='5')
+                        i
+
+
+            tr
+                td <iframe src="https://embed.spotify.com/?uri=spotify:user:brewer:playlist:2UxtcJicZYkdBuqFAXzYI2" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td Rock
+                td 12/12/2000  13:20
+                td user1
+                td
+                    span.star-rating(name="2")
+                        input(type='radio', name='rating', value='1')
+                        i
+                        input(type='radio', name='rating', value='2')
+                        i
+                        input(type='radio', name='rating', value='3')
+                        i
+                        input(type='radio', name='rating', value='4')
+                        i
+                        input(type='radio', name='rating', value='5')
+                        i
+            tr
+                td <iframe src="https://embed.spotify.com/?uri=spotify:user:brewer:playlist:2UxtcJicZYkdBuqFAXzYI2" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td Rock
+                td 12/12/2000  13:20
+                td user1
+                td
+                    span.star-rating(name="2")
+                        input(type='radio', name='rating', value='1')
+                        i
+                        input(type='radio', name='rating', value='2')
+                        i
+                        input(type='radio', name='rating', value='3')
+                        i
+                        input(type='radio', name='rating', value='4')
+                        i
+                        input(type='radio', name='rating', value='5')
+                        i
+
+

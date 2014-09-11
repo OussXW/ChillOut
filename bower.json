@@ -1,0 +1,19 @@
+{
+  "name": "Chill-Out",
+  "version": "0.0.0",
+  "authors": [
+    "oussamanasr <oussamanasr3@gmail.com>"
+  ],
+  "description": "\"stop whining and chillax\"",
+  "license": "STUDENT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "toastr": "~2.0.1",
+    "angular": "~1.2.0",
+    "angular-resource": "~1.2.0",
+    "angular-route": "~1.2.0",
+    "bootstrap": "~3.0.2",
+    "angular-mocks": "~1.2.0"
+  }
+}
