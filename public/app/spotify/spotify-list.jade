@@ -5,12 +5,7 @@ link(rel='stylesheet', type='text/css', media='screen', href='css/style.css')
 link(href='http://fonts.googleapis.com/css?family=Lato:300italic', rel='stylesheet', type='text/css')
 script(type="text/javascript", src="/app/spotify/rating.js")
 .container.top-padding-med
-  .pull-right
-    form.form-inline
-        .form-group
-            input.form-control(ng-model="searchText", placeholder="Filter")
-        .form-group.margin-left-med
-            select.form-control(ng-model="sortOrder", ng-options="item.value as item.text for item in sortOptions")
+
   table.table.table-hover.table-striped.table-condensed
         thead
             tr
@@ -58,10 +53,10 @@ script(type="text/javascript", src="/app/spotify/rating.js")
                         i
                         input(type='radio', name='rating', value='5')
                         i
-
+                td
 
             tr
-                td <iframe src="https://embed.spotify.com/?uri=spotify:user:brewer:playlist:2UxtcJicZYkdBuqFAXzYI2" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td <iframe src="https://embed.spotify.com/?uri=spotify:track:0XRoKzH7h7lhlm1DzqleqC" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
                 td Rock
                 td 12/12/2000  13:20
                 td user1
@@ -77,8 +72,47 @@ script(type="text/javascript", src="/app/spotify/rating.js")
                         i
                         input(type='radio', name='rating', value='5')
                         i
+                td
             tr
-                td <iframe src="https://embed.spotify.com/?uri=spotify:user:brewer:playlist:2UxtcJicZYkdBuqFAXzYI2" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td <iframe src="https://embed.spotify.com/?uri=spotify:user:12136362554:playlist:08AVVqa2U23pafThu2pDZs" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td Rock
+                td 12/12/2000  13:20
+                td user2
+                td
+                    span.star-rating(name="2")
+                        input(type='radio', name='rating', value='1')
+                        i
+                        input(type='radio', name='rating', value='2')
+                        i
+                        input(type='radio', name='rating', value='3')
+                        i
+                        input(type='radio', name='rating', value='4')
+                        i
+                        input(type='radio', name='rating', value='5')
+                        i
+                td
+
+
+            tr
+                td <iframe src="https://embed.spotify.com/?uri=spotify:user:mkaaven:playlist:56c4cSDKFz4pYKOzm9gGll" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td Rock
+                td 12/12/2000  13:20
+                td user2
+                td
+                    span.star-rating(name="2")
+                        input(type='radio', name='rating', value='1')
+                        i
+                        input(type='radio', name='rating', value='2')
+                        i
+                        input(type='radio', name='rating', value='3')
+                        i
+                        input(type='radio', name='rating', value='4')
+                        i
+                        input(type='radio', name='rating', value='5')
+                        i
+                td
+            tr
+                td <iframe src="https://embed.spotify.com/?uri=spotify:user:12136362554:playlist:2DeFUh0WJFbIrX61bA1yfq" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
                 td Rock
                 td 12/12/2000  13:20
                 td user1
@@ -94,5 +128,22 @@ script(type="text/javascript", src="/app/spotify/rating.js")
                         i
                         input(type='radio', name='rating', value='5')
                         i
-
-
+                td
+            tr
+                td <iframe src="https://embed.spotify.com/?uri=spotify:user:12136362554:playlist:2vbIPMyvVBbkHvDV2uudmq" width="500" height="80" frameborder="0" allowtransparency="true"></iframe>
+                td Rock
+                td 12/12/2000  13:20
+                td user2
+                td
+                    span.star-rating(name="2")
+                        input(type='radio', name='rating', value='1')
+                        i
+                        input(type='radio', name='rating', value='2')
+                        i
+                        input(type='radio', name='rating', value='3')
+                        i
+                        input(type='radio', name='rating', value='4')
+                        i
+                        input(type='radio', name='rating', value='5')
+                        i
+                td
