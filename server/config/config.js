@@ -9,7 +9,7 @@ module.exports = {
   },
   production: {
     rootPath: rootPath,
-    db: 'mongodb://oussamanasr:chillout@ds041160.mongolab.com:41160/chillout',
+    db: 'mongodb://oussama:chillout@ds041160.mongolab.com:41160/chillout',
     port: process.env.PORT || 80
   }
 }
